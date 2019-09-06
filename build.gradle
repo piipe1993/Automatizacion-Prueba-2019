@@ -1,0 +1,38 @@
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.58")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+dependencies {
+
+    testCompile group: 'net.serenity-bdd', name: 'serenity-core', version: '2.0.58'
+    testCompile group: 'net.serenity-bdd', name: 'serenity-junit', version: '2.0.58'
+    testCompile('junit:junit:4.12')
+    testCompile('org.assertj:assertj-core:3.11.1')
+    testCompile('org.slf4j:slf4j-simple:1.7.25')
+    testCompile group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '7.2.1.jre8'
+
+    compile group: 'net.serenity-bdd', name: 'serenity-core', version: '2.0.58'
+    compile group: 'net.serenity-bdd', name: 'serenity-junit', version: '2.0.58'
+    compile group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.43'
+
+
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
+    testCompile group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '7.2.1.jre8'
+    implementation 'com.google.code.gson:gson:2.8.5'
+}

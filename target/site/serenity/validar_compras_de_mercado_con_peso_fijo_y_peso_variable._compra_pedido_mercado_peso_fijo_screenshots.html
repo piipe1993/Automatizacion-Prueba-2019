@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Proyecto base para Automatización</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_features_sl_validar_compras_de_mercado_con_peso_fijo_y_peso_variable..html">Validar Compras De Mercado Con Peso Fijo Y Peso Variable.</a></span>
+                > <span class="truncate-60"><a
+                    href="validar_compras_de_mercado_con_peso_fijo_y_peso_variable._compra_pedido_mercado_peso_fijo.html">Compra pedido mercado peso fijo </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-08-2019 15:21</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validar Compras De Mercado Con Peso Fijo Y Peso Variable.</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="tag_testcase1.html">Testcase1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Compra pedido mercado peso fijo
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given seleccionamos categoria &lt;categoria&gt; y subcategoria &lt;subcategoria&gt;<br>And seleccionamos y agregamos producto &lt;producto&gt;<br>And clic sobre envio a domicio en la modal, ingresar email &lt;emailModal&gt; y finalizar modal<br>And clic sobre boton checkout<br>And clic sobre boton finalizar compra<br>And elegir fecha de entrega<br>And dar clic en ir a metodo de pago<br>And Seleccionar metodo pago<br>And clic sobre boton pagar<br>Then se finaliza la compra correctamente y se visualiza el numero de pedido</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="3b51538c60cc6ec7d845c34fcb798852d4e8b7f40022dd61261eace3490a08da.png" title=" Example: {categoria=Mercado, subcategoria=Frutas, producto=Mango, emailModal=andres.cardona@sqasa.co}" width="1366"/>
+                <img src="3b51538c60cc6ec7d845c34fcb798852d4e8b7f40022dd61261eace3490a08da.png" title=" Given ingresar al ambiente de pruebas del exito &quot;andres.cardona@sqasa.co&quot; &quot;Andres1993&quot;" width="1366"/>
+                <img src="e1e053bb680c072514e6a7de76f628b351d0986c2eeea71e66253317e5ccabc1.png" title=" Given seleccionamos categoria Mercado y subcategoria Frutas" width="1366"/>
+                <img src="2020a3679ad3f78dca5c941a0fb97763b314fb29712c630f8824dfe0697bd06b.png" title=" And seleccionamos y agregamos producto Mango" width="1366"/>
+                <img src="d0bcfb366032262d6b845397af12e6ea9d17655a540d2df3e708251bdc421d37.png" title=" And clic sobre envio a domicio en la modal, ingresar email andres.cardona@sqasa.co y finalizar modal" width="1366"/>
+                <img src="94f88580a4b01e02a6e9b6efa98fd011248e71116bb889bb7f5a664a7cb986e4.png" title=" And clic sobre boton checkout" width="1366"/>
+                <img src="4abac6be1e2993bb7dbd9606e04372c89fe5e04b4ca8c98364959eab170a65ac.png" title=" And clic sobre boton finalizar compra" width="1366"/>
+                <img src="0aa08cb539d740e7735d32cad157c106b480129a03e70c9c372369e05f7bf2e8.png" title=" And elegir fecha de entrega" width="1366"/>
+                <img src="278006c690ac6b31c8a853801f91d48ca7e8dfef244cf4a7e64b42b3fd1b8487.png" title=" And dar clic en ir a metodo de pago" width="1366"/>
+                <img src="278006c690ac6b31c8a853801f91d48ca7e8dfef244cf4a7e64b42b3fd1b8487.png" title=" And Seleccionar metodo pago" width="1366"/>
+                <img src="278006c690ac6b31c8a853801f91d48ca7e8dfef244cf4a7e64b42b3fd1b8487.png" title=" And clic sobre boton pagar" width="1366"/>
+                <img src="278006c690ac6b31c8a853801f91d48ca7e8dfef244cf4a7e64b42b3fd1b8487.png" title=" Then se finaliza la compra correctamente y se visualiza el numero de pedido" width="1366"/>
+                <img src="278006c690ac6b31c8a853801f91d48ca7e8dfef244cf4a7e64b42b3fd1b8487.png" title=" Example: {categoria=Mercado, subcategoria=Frutas, producto=Mango, emailModal=andres.cardona@sqasa.co} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.59</span>
+</div>
+</body>
+</html>
